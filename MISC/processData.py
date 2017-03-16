@@ -35,7 +35,7 @@ if __name__ == "__main__":
 # Program that reads a file of
 # grades and courses and writes
 # the number of IDs with total score
-# of 100 or more, into a file.
+# of 100 or more, into a file
 inputFile = open("input.txt", "r")
 data = [line.strip("\n").replace(" ", "").split(",") for line in inputFile.readlines()]
 print (data)
